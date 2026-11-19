@@ -26,6 +26,14 @@
 .vision-text.partnerships,.vision-text.fund{background:#193e4c;color:#fff}.vision-text.partnerships .kicker,.vision-text.fund .kicker{color:#c2dec7}.vision-text.partnerships .editorial-rows p,.vision-text.partnerships .source-note,.vision-text.fund .vision-columns p:not(.lead){color:#dbe9e5}.vision-text.partnerships .editorial-rows,.vision-text.partnerships .editorial-rows article{border-color:#809e95}.vision-text.finance,.vision-text.roadmap{background:#fff;color:#163d4e}.vision-text.finance .kicker,.vision-text.roadmap .kicker{color:#668d77}.vision-text.finance .finance-intro,.vision-text.finance .funding-grid span,.vision-text.finance .source-note,.vision-text.roadmap .editorial-rows p{color:#586f70}
 
 
+
+
 /* Titluri și paragrafe mai ușor de citit. */
 h1,h2,h3{letter-spacing:-0.015em!important;line-height:1.16!important;text-transform:none!important;overflow-wrap:normal}
 p{line-height:1.7}
+
+
+/* O ierarhie tipografică mai aerisită. */
+h1,h2,h3{font-weight:500!important}
+h1 em,h2 em,h3 em,h1 i{font-weight:400!important}
+.layer h3{font-weight:500!important;font-size:clamp(24px,2.4vw,36px)}
